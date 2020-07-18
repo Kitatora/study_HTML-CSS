@@ -9,35 +9,18 @@ body {
     
 }
 
-header {
+header{
     display: flex;
-    width: 90%;
-    margin: auto;
-    height: 10vh;
-    align-items: center;
-} 
+    width: 100%;
+    justify-content: space-between;
+}
 
 .logo-container{
-    background: lightblue;
-    flex: 1;
-    display: flex;
-}
-
-.logo{
-    font-weigh: 400;
-    margin: 5px;
-}
-
-nav{
-    background: rgb(189, 230, 173);
-    flex: 3; 
     display: flex;
 }
 
 .nav-links{
-    display:flex;
-    justify-content: space-around; 
-    /* ↑が機能していないのでナビアイコンが重なっている？ */
+    display: flex;
     list-style: none;
 }
 
@@ -45,8 +28,9 @@ nav{
     color: #5f5f79;
     font-size: 18px;
     text-decoration: none;
+    margin: 0px 10px;
 }
-
+ 
 .presentation{
     display: flex;
     width: 90%;
@@ -73,23 +57,34 @@ nav{
     color: #587772
 }
 
-.cta{
-    padding: 50px 0px 0px 0px;
-}
-
-.cta-select{
-    border: 2px solid #c36cbb;
-    background: transparent;
-    color: #c36cbb;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-}
-
 .cover{
     flex: 1;
 }
 
 .cover img{
     height: 60vh;
+}
+
+.article{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    display: flex;
+}
+
+.movie{
+    margin: 10px;
+}
+
+.explanation{
+    margin: 10px;
+
 }
