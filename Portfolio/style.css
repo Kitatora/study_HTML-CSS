@@ -37,6 +37,7 @@ header{
     min-height: 80vh;
     margin: auto;
     align-items: center;
+    background: #ef9898;
 }
 
 .introduction{
@@ -72,19 +73,38 @@ header{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .details{
     display: flex;
+    background: rgb(189, 89, 247);
 }
 
 .movie{
     margin: 10px;
+    flex: 1;
 }
 
 .explanation{
     margin: 10px;
+    flex: 2;
+    text-align: left;
+}
 
+.article prof{
+    background: rgb(248, 248, 139);
+}
+
+.article py{
+    background: rgb(63, 107, 250);
+}
+
+.article dj{
+    background:rgb(91, 250, 91);
+}
+
+.article js{
+    background: rgb(253, 168, 88);
 }
