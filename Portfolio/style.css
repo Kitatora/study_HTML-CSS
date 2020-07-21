@@ -79,11 +79,13 @@ header{
 
 .details{
     display: flex;
-    background: rgba(168, 168, 168, 0.993);
+}
+
+.gr{
+    background: rgba(240, 240, 240, 0.993);  
 }
 
 .front-text{
-    background: rgba(168, 168, 168, 0.993);
     text-align: center;
     font-size: 30px;
 }
@@ -92,13 +94,10 @@ p{
     padding: 30px;
 }
 
-.details gr{
-}
-
 .movie{
-    margin: 10px;
+    margin: 30px;
     flex: 1;
-    background: rgb(10, 8, 8);
+    /* background: rgb(10, 8, 8); */
 }
 
 .explanation{
@@ -107,18 +106,14 @@ p{
     text-align: left;
 }
 
-.article prof{
-    background: rgb(248, 248, 139);
+.footer-bottom{
+    background:rgb(59, 59, 59);
+    padding: 10px;
+    text-align: center;
+    
 }
 
-.article py{
-    background: rgb(63, 107, 250);
-}
-
-.article dj{
-    background:rgb(91, 250, 91);
-}
-
-.article js{
-    background: rgb(253, 168, 88);
+.footer-bottom p{
+    color: white;
+    font-size: 13px;
 }
