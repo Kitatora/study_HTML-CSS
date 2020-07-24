@@ -6,7 +6,7 @@ $(function() {
     //要素が追従する処理
     function fixFunction(){
         var windowScrolltop = $(window).scrollTop();
-        //スクロール　が初期値①を通過している時
+        //スクロール　が初期位置を通過している時
         if(windowScrolltop >= baseFixPoint){
             $fixElement.addClass(fixClass);
         } else {
@@ -15,5 +15,5 @@ $(function() {
     }
     $(window).on("load scroll", function(){
         fixFunction();
-    })
+    });
 });
