@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 
 <head>
     <meta charset="UTF-8">
@@ -7,36 +7,26 @@
     <meta name="description" content="きたとらのポートフォリオ">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-    <meta name="viwport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Prtfolio</title>
 </head>
 
 <body>
-    <header>
-        <!-- <div class = "logo-container">
-            <h4 class = "logo">きたとらポートフォリオ</h4> -->
-        <!-- </div> -->
-    </header>
     <main>
-        <!-- <div class="nav-wrapper">
-            <div class="nav">
-                <ul class = "nav-links">
-                    <li><a class = "nav-link" href="#Pro">Profile</a></li>
-                    <li><a class = "nav-link" href="#Py">Python</a></li>
-                        <li><a class = "nav-link" href="#Dj">Django</a></li>
-                        <li><a class = "nav-link" href="#JS">JavaScript</a></li>
-                    </ul>
-                </div>
-            </div> -->
         <section class="presentation">
             <div class="introduction">
                 <div class="intro-text">
-                    <h1>きたとらのポートフォリオ</h1>
+                    <h2>きたとらのポートフォリオ</h2>
                     <p>転職活動中</p>
                 </div>
             </div>
-            <div class="cover">
+            <div class="top-photo">
                 <img src="https://placehold.jp/150x150.png" alt="photo">
             </div>
         </section>
@@ -53,19 +43,22 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#Pro">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#Py">Python</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#Dj">Django</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#JS">JavaScript</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="container">
+        <section class="wrapper-article">
             <div class="article prof">
                 <p class="front-text" id="Pro">
                     about me
@@ -89,7 +82,7 @@
                 <p class="front-text" id="Py">
                     Python
                 </p>
-                <div class="details gr">
+                <div class="details">
                     <div class="movie">
                         <img src="https://placehold.jp/300x200.png" alt="photo">
                     </div>
@@ -127,7 +120,7 @@
                 <p class="front-text gr" id="JS">
                     JavaScript
                 </p>
-                <div class="details gr">
+                <div class="details">
                     <div class="movie">
                         <img src="https://placehold.jp/300x200.png" alt="photo">
                     </div>
@@ -144,7 +137,6 @@
             </div>
         </section>
     </main>
-
     <footer class="footer-bottom">
         <p>
             @Kitatora 2020
@@ -156,7 +148,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
-    <script src="ap.js"></script>
+    <script class="ap.js"></script>
 </body>
 
 </html>
