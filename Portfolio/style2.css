@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background: orange;
+}
+
+.introduction{
+    flex: 1;
+}
+
+.intro-text p{
+    font-size: 24px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    margin-top: 5px;
+}
+
+.wrapper-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /*水平並び*/
+    align-items: center;
+}
+
+.front-text{
+    text-align:center;
+    font-size: 30px;
+}
+
+.details{
+    display: flex;
+}
+
+.movie{
+    margin: 30px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background:rgb(10, 8, 8);
+}
+
+.gr{
+    background: rgba(240, 240, 240, 0.993);
+}
+
+.explanation{
+    margin: 10px;
+    flex: 2;
+    text-align: left;
+}
+
+.explanation p{
+    padding: 30px;
+}
+
+.footer-bottom{
+    background: rgb(59, 59, 59);
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+}

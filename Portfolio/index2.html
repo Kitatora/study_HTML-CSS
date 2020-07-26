@@ -13,34 +13,34 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
     <title>Prtfolio</title>
 </head>
 
 <body>
     <main>
-        <section class="presentation">
+        <section class="top">
             <div class="introduction">
                 <div class="intro-text">
-                    <h2>きたとらのポートフォリオ</h2>
+                    <p>きたとらのポートフォリオ</p>
                     <p>転職活動中</p>
                 </div>
             </div>
             <div class="top-photo">
-                <img src="https://placehold.jp/150x150.png" alt="photo">
+                <img src="https://placehold.jp/600x300.png" alt="photo">
             </div>
         </section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="navbar-spy" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <!-- <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#"></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Pro">Profile</a>
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </nav>
-        <section class="wrapper-article">
+        <section data-spy="scroll" data-target="#navbar-spy" data-offset="0" class="wrapper-article">
             <div class="article prof">
                 <p class="front-text" id="Pro">
                     about me
@@ -116,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="article js">
+            <div class="article js gr">
                 <p class="front-text gr" id="JS">
                     JavaScript
                 </p>
