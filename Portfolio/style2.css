@@ -70,3 +70,12 @@
     font-size: 13px;
     padding: 20px;
 }
+
+li a .active{
+    color:#fff;
+    background: #f00;
+}
+
+.container{
+    padding:0;
+}
