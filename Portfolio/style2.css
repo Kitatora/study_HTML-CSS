@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-.top{
+.cover-img{
+    height:600px;
     display: flex;
     margin: auto;
     align-items: center;
@@ -18,7 +19,6 @@
 .intro-text p{
     font-size: 24px;
     font-weight: 500;
-    background: linear-gradient(to right, #494964, #6f6f89);
     margin-top: 5px;
 }
 
